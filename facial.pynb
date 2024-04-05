@@ -1,0 +1,10 @@
+# Install required packages if not already installed
+!pip install ipywebrtc torch torchvision
+
+# Import necessary libraries
+import cv2
+import numpy as np
+from PIL import Image
+from ipywebrtc import CameraStream
+from torchvision import models, transforms
+import torch
